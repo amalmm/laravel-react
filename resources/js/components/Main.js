@@ -4,6 +4,8 @@ import ReactDOM from 'react-dom';
 import Converters from './Converters.js';
 import Mytodo from './Todo';
 
+import Coin from './Coin';
+
 function Main() {
    
     return (
@@ -11,6 +13,8 @@ function Main() {
            <Converters />
            <hr />
            <Mytodo />
+           <hr/>
+           <Coin />
        </div>
     );
 }
